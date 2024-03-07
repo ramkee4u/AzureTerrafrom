@@ -6,7 +6,7 @@ on: [push, pull_request]
 jobs:
   terraform:
     name: 'Terraform'
-    runs-on: test
+    runs-on: gha-test
     
     defaults:
       run:
